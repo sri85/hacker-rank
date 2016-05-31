@@ -10,6 +10,6 @@ for _ in xrange(T):
         trade = wrappers / m
         total +=  trade
         wrappers = wrappers % m
-        wrappers = wrappers + trade
+        wrappers +=  trade
 
     print total
